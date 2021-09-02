@@ -1,0 +1,5 @@
+2021-07-28 15:54:18.638  INFO 8868 --- [restartedMain] com.pzt.BlogApplication                  : Starting BlogApplication using Java 1.8.0_91 on pzt with PID 8868 (D:\myBlog\blog\target\classes started by pzt in D:\myBlog\blog)
+2021-07-28 15:54:18.640  INFO 8868 --- [restartedMain] com.pzt.BlogApplication                  : The following profiles are active: pro
+2021-07-28 15:54:19.955  WARN 8868 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-28 15:54:20.322  WARN 8868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-28 15:54:20.596  INFO 8868 --- [restartedMain] com.pzt.BlogApplication                  : Started BlogApplication in 2.333 seconds (JVM running for 2.972)

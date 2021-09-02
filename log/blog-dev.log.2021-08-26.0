@@ -1,0 +1,108 @@
+2021-08-26 08:57:46.335  INFO 16540 --- [restartedMain] com.pzt.BlogApplication                  : Starting BlogApplication using Java 1.8.0_91 on pzt with PID 16540 (D:\myBlog\blog\target\classes started by pzt in D:\myBlog)
+2021-08-26 08:57:46.340 DEBUG 16540 --- [restartedMain] com.pzt.BlogApplication                  : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-26 08:57:46.340  INFO 16540 --- [restartedMain] com.pzt.BlogApplication                  : The following profiles are active: dev
+2021-08-26 08:57:46.381  INFO 16540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-26 08:57:46.381  INFO 16540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-26 08:57:47.255  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-26 08:57:47.333  INFO 16540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2021-08-26 08:57:48.027  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-26 08:57:48.035  INFO 16540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-26 08:57:48.036  INFO 16540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-26 08:57:48.038  INFO 16540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-08-26 08:57:48.039  INFO 16540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-08-26 08:57:48.039  INFO 16540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-08-26 08:57:48.039  INFO 16540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-26 08:57:48.042  INFO 16540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-08-26 08:57:48.106  INFO 16540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-26 08:57:48.106  INFO 16540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1724 ms
+2021-08-26 08:57:48.250  INFO 16540 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-26 08:57:48.303  INFO 16540 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-26 08:57:48.441  INFO 16540 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-26 08:57:48.536  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-26 08:57:48.537  WARN 16540 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-26 08:57:48.755  INFO 16540 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-26 08:57:48.771  INFO 16540 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-08-26 08:57:49.464  INFO 16540 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-26 08:57:49.471  INFO 16540 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-26 08:57:50.302  WARN 16540 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-26 08:57:50.558  INFO 16540 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-26 08:57:50.874  INFO 16540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-26 08:57:50.910  INFO 16540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-26 08:57:50.919  INFO 16540 --- [restartedMain] com.pzt.BlogApplication                  : Started BlogApplication in 5.046 seconds (JVM running for 5.777)
+2021-08-26 08:57:52.657  INFO 16540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 08:57:52.657  INFO 16540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-26 08:57:52.658  INFO 16540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-26 08:57:52.694  INFO 16540 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], com.pzt.vo.BlogQuery@68976d4, {blogQuery=com.pzt.vo.BlogQuery@68976d4, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-08-26 08:57:52.786  WARN 16540 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-26 08:57:52.796  WARN 16540 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-26 08:57:52.802  INFO 16540 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Result: {}index
+2021-08-26 08:57:55.192  INFO 16540 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 08:57:55.239  INFO 16540 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 09:06:19.465  INFO 16540 --- [http-nio-8080-exec-9] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 09:06:19.471  INFO 16540 --- [http-nio-8080-exec-9] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 09:08:37.204  INFO 16540 --- [http-nio-8080-exec-5] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 09:08:37.210  INFO 16540 --- [http-nio-8080-exec-5] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 09:28:19.605  WARN 16540 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s354ms6µs700ns).
+2021-08-26 09:41:47.389  WARN 16540 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m27s674ms453µs700ns).
+2021-08-26 14:04:09.925  INFO 15532 --- [restartedMain] com.pzt.BlogApplication                  : Starting BlogApplication using Java 1.8.0_91 on pzt with PID 15532 (D:\myBlog\blog\target\classes started by pzt in D:\myBlog)
+2021-08-26 14:04:09.927 DEBUG 15532 --- [restartedMain] com.pzt.BlogApplication                  : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-26 14:04:09.927  INFO 15532 --- [restartedMain] com.pzt.BlogApplication                  : The following profiles are active: dev
+2021-08-26 14:04:09.964  INFO 15532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-26 14:04:09.965  INFO 15532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-26 14:04:10.537  INFO 15532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-26 14:04:10.598  INFO 15532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2021-08-26 14:04:11.204  INFO 15532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-26 14:04:11.211  INFO 15532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-26 14:04:11.211  INFO 15532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-26 14:04:11.212  INFO 15532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.26] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-08-26 14:04:11.213  INFO 15532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.26] using APR version [1.7.0].
+2021-08-26 14:04:11.213  INFO 15532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-08-26 14:04:11.213  INFO 15532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-26 14:04:11.215  INFO 15532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1i  8 Dec 2020]
+2021-08-26 14:04:11.276  INFO 15532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-26 14:04:11.276  INFO 15532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2021-08-26 14:04:11.412  INFO 15532 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-26 14:04:11.451  INFO 15532 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-26 14:04:11.546  INFO 15532 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-26 14:04:11.631  INFO 15532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-26 14:04:11.632  WARN 15532 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-26 14:04:11.843  INFO 15532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-26 14:04:11.856  INFO 15532 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-08-26 14:04:12.445  INFO 15532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-26 14:04:12.452  INFO 15532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-26 14:04:13.417  WARN 15532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-26 14:04:13.725  INFO 15532 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-26 14:04:14.071  INFO 15532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-26 14:04:14.109  INFO 15532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-26 14:04:14.118  INFO 15532 --- [restartedMain] com.pzt.BlogApplication                  : Started BlogApplication in 4.611 seconds (JVM running for 5.607)
+2021-08-26 14:04:20.088  INFO 15532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-26 14:04:20.089  INFO 15532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-26 14:04:20.089  INFO 15532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-08-26 14:04:20.125  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], com.pzt.vo.BlogQuery@319ce37a, {blogQuery=com.pzt.vo.BlogQuery@319ce37a, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-08-26 14:04:20.217  WARN 15532 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-26 14:04:20.228  WARN 15532 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-26 14:04:20.233  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Result: {}index
+2021-08-26 14:04:22.837  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:04:22.890  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:06:35.548  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], com.pzt.vo.BlogQuery@7ee5409a, {blogQuery=com.pzt.vo.BlogQuery@7ee5409a, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-08-26 14:06:35.561  INFO 15532 --- [http-nio-8080-exec-1] com.pzt.aspect.LogAspect                 : Result: {}index
+2021-08-26 14:06:43.844  INFO 15532 --- [http-nio-8080-exec-6] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:06:43.850  INFO 15532 --- [http-nio-8080-exec-6] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:08:07.980  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:08:07.986  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:08:42.818  INFO 15532 --- [http-nio-8080-exec-6] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:08:42.823  INFO 15532 --- [http-nio-8080-exec-6] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:09:40.509  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:09:40.514  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:11:46.350  INFO 15532 --- [http-nio-8080-exec-2] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:11:46.355  INFO 15532 --- [http-nio-8080-exec-2] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:12:05.277  INFO 15532 --- [http-nio-8080-exec-9] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:12:05.282  INFO 15532 --- [http-nio-8080-exec-9] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:16:24.948  INFO 15532 --- [http-nio-8080-exec-5] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], com.pzt.vo.BlogQuery@2abdfbe7, {blogQuery=com.pzt.vo.BlogQuery@2abdfbe7, org.springframework.validation.BindingResult.blogQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-08-26 14:16:24.959  INFO 15532 --- [http-nio-8080-exec-5] com.pzt.aspect.LogAspect                 : Result: {}index
+2021-08-26 14:16:27.234  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/22', ip='0:0:0:0:0:0:0:1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:16:27.240  INFO 15532 --- [http-nio-8080-exec-4] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:16:43.809  INFO 15532 --- [http-nio-8080-exec-7] com.pzt.aspect.LogAspect                 : Request : {url='http://127.0.0.1:8080/blog/22', ip='127.0.0.1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:16:43.813  INFO 15532 --- [http-nio-8080-exec-7] com.pzt.aspect.LogAspect                 : Result: {}blog
+2021-08-26 14:16:55.724  INFO 15532 --- [http-nio-8080-exec-8] com.pzt.aspect.LogAspect                 : Request : {url='http://127.0.0.1:8080/blog/22', ip='127.0.0.1', classMethod='com.pzt.web.IndexController.blog', args=[22, {}]}
+2021-08-26 14:16:55.728  INFO 15532 --- [http-nio-8080-exec-8] com.pzt.aspect.LogAspect                 : Result: {}blog
